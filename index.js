@@ -39,7 +39,9 @@ console.log(`Sum = ${a1+a2}`);*/
 
 //--------------------------------------------------------------------
 
-console.log("Table of 8");
+// RIGHT ANGLED TRINAGLE PATTERN
+
+/*console.log("Table of 8");
 for (var i = 1; i <= 10; i++) {
 
     console.log(i * 8);
@@ -64,5 +66,30 @@ for (var i = 1; i <= 5; i++) {
     nsp--;
 
     console.log('\n');
-}
+}*/
 
+//--------------------------------------------------------------------------
+
+// HOLLOW SQUARE
+
+var nsp = 5;
+
+for (var i=1;i<=7;i++) {
+
+    process.stdout.write("*\t");
+
+    for (var j=1;j<=nsp;j++) {
+
+        if (i==1 || i==7) {
+
+            process.stdout.write("*\t");
+        }
+        else{
+
+            process.stdout.write("\t");
+        }
+    }
+    process.stdout.write("*\t");
+
+    console.log("\n\n");
+}
