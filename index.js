@@ -37,27 +37,32 @@ let a2=9;
 
 console.log(`Sum = ${a1+a2}`);*/
 
-console.log("Table of 8");
-for(var i=1;i<=10;i++){
+//--------------------------------------------------------------------
 
-    console.log(i*8);
+console.log("Table of 8");
+for (var i = 1; i <= 10; i++) {
+
+    console.log(i * 8);
 }
 
-var nsp=4;
-var nst=1;
+var nsp = 4;
+var nst = 1;
 
-for(var i=1;i<=5;i++){
+for (var i = 1; i <= 5; i++) {
 
-    for(var j=1;j<=nsp;j++){
+    for (var j = 1; j <= nsp; j++) {
 
-        console.log("\t");
+        process.stdout.write("\t")
     }
 
-    for(var j=1;j<=nst;j++){
+    for (var j = 1; j <= nst; j++) {
 
-        console.log("*\t");
+        process.stdout.write("*\t")
     }
 
     nst++;
     nsp--;
+
+    console.log('\n');
 }
+
