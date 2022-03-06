@@ -42,3 +42,22 @@ for(var i=1;i<=10;i++){
 
     console.log(i*8);
 }
+
+var nsp=4;
+var nst=1;
+
+for(var i=1;i<=5;i++){
+
+    for(var j=1;j<=nsp;j++){
+
+        console.log("\t");
+    }
+
+    for(var j=1;j<=nst;j++){
+
+        console.log("*\t");
+    }
+
+    nst++;
+    nsp--;
+}
