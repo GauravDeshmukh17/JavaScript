@@ -72,7 +72,7 @@ for (var i = 1; i <= 5; i++) {
 
 // HOLLOW SQUARE
 
-var nsp = 5;
+/*var nsp = 5;
 
 for (var i=1;i<=7;i++) {
 
@@ -92,4 +92,38 @@ for (var i=1;i<=7;i++) {
     process.stdout.write("*\t");
 
     console.log("\n\n");
+}*/
+
+//------------------------------------------------------------------
+
+// TRIANGLE
+
+var n=5;
+var nsp=n-1;
+var nst=1;
+
+for(var i=1;i<=n;i++){
+
+    for(var j=1;j<=nsp;j++){
+
+        process.stdout.write("\t")
+    }
+
+    for(var j=1;j<=nst;j++){
+
+        process.stdout.write("*\t")
+    }
+
+    for(var j=1;j<=nsp;j++){
+
+        process.stdout.write("\t")
+    }
+
+    nsp--;
+    nst+=2;
+
+    console.log("\n");
+
 }
+
+
