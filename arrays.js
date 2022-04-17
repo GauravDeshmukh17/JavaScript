@@ -80,5 +80,8 @@ array2d.unshift([7]);
 console.log(array2d);
 console.table(array2d);
 
+console.log("Length of array at index number 1 : "+array2d[1].length);
+console.log("Length of array at index number 0 : "+array2d[0].length);
+
 
 
