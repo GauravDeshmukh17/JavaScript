@@ -56,5 +56,3 @@ let a=function sum(c,d){
 
 console.log(""+a);
 console.log("Sum = "+a(12,45));
-
-
