@@ -28,7 +28,7 @@ student.hi();
 
 //------------------------------------------------------------------------------------
 
-let state={
+/*let state={
 
     totalStates:28,
     stateName:"Maharashtra",
@@ -66,3 +66,23 @@ for(let key in state){
     // console.log(key+" : "+state[key]);
     console.log(`${key} : ${state[key]}`);
 }
+
+*/
+
+//-------------------------------------------------------------------------------
+
+let arr={
+
+    1:21,
+    2:34,
+    3:56,
+    4:10,
+    name:"Gaurav"
+}
+
+console.log(arr["1"]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr["name"]);
+console.log(arr.name);
+
