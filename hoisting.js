@@ -1,6 +1,5 @@
 
 // hoisting means accessing the functions and variables before their declaration
-
 /*console.log(a);
 greet();
 

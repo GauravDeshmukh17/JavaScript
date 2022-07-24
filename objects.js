@@ -20,7 +20,7 @@
 
 console.log(student);
 
-console.log(student.Details);
+console.log(student.details);
 console.log(student["Address"]);
 student.hi();
 
@@ -84,5 +84,6 @@ console.log(arr["1"]);
 console.log(arr[1]);
 console.log(arr[2]);
 console.log(arr["name"]);
-console.log(arr.name);
+console.log(arr.name); 
+
 
