@@ -63,11 +63,11 @@ student[2]="Manish"
 console.log(student)
 */
 
-  
+//--------------------------------------------------------------------------------
 
 // 2D ARRAY
 
-let arr=[
+/*let arr=[
     [1,2,3],
     [4,5,6],
     [7,8,9]
@@ -77,6 +77,15 @@ console.log(arr[1]);
 console.log(arr[2].length)
 console.table(arr)
 
+*/
 
+//--------------------------------------------------------------------------------
+
+let arr=["Alpha",3,5,"Beta",7,"Delta",9.6];
+
+console.log(arr);
+arr[1]="Lamda";
+arr[7]=1;
+console.log(arr);
 
 
