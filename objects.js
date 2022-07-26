@@ -1,4 +1,4 @@
-/*let student={
+let student={
 
     nameOfStudent:"Gaurav",
     age:21,
@@ -21,10 +21,9 @@
 console.log(student);
 
 console.log(student.details);
-console.log(student["Address"]);
+console.log(student["address"]);
 student.hi();
-
-*/
+console.log(student.address);
 
 //------------------------------------------------------------------------------------
 
@@ -71,7 +70,7 @@ for(let key in state){
 
 //-------------------------------------------------------------------------------
 
-let arr={
+/*let arr={
 
     1:21,
     2:34,
@@ -86,4 +85,4 @@ console.log(arr[2]);
 console.log(arr["name"]);
 console.log(arr.name); 
 
-
+*/
