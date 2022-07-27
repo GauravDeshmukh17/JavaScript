@@ -2,7 +2,7 @@ let student={
 
     nameOfStudent:"Gaurav",
     age:21,
-    gender:"Male",
+    "gender":"Male",
     college:"ICOER_Wagholi",
     address :["At : Dapegaon","Post:Jawalaga(P.D)","Tq : Ausa","Dist : Latur",413520],
     details:{
