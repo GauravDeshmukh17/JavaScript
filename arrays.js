@@ -55,7 +55,7 @@ console.log(cars.length);
 
 // 2D arrays
 
-let array2d=[
+/*let array2d=[
 
     [1,2,3],
     [4,5,6],
@@ -82,6 +82,38 @@ console.table(array2d);
 
 console.log("Length of array at index number 1 : "+array2d[1].length);
 console.log("Length of array at index number 0 : "+array2d[0].length);
+*/
 
+
+/*const arrayLike = [{
+    length: 3,
+    0: 2,
+    1: 3,
+    2: 4
+  },
+  {
+    length: 4,
+    0: 7,
+    1: 8,
+    2: 11,
+    3: 12
+  }];
+  console.log(Array.prototype.indexOf.call(arrayLike[1], 11));
+  // 0
+  console.log(Array.prototype.indexOf.call(arrayLike[1], 5));
+  // -1
+  */
+
+
+
+  // to find index by key value pair in array of objects
+  a = [
+    {prop1:"abc",prop2:"qwe"},
+    {prop1:"bnmb",prop2:"yutu"},
+    {prop1:"zxvz",prop2:"qwrq"}];
+      
+  index = a.findIndex(x => x.prop2 ==="qwrq");
+  
+  console.log(index);  
 
 

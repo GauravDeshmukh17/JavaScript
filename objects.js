@@ -1,4 +1,4 @@
-let student={
+/*let student={
 
     nameOfStudent:"Gaurav",
     age:21,
@@ -24,6 +24,7 @@ console.log(student.details);
 console.log(student["address"]);
 student.hi();
 console.log(student.address);
+*/
 
 //------------------------------------------------------------------------------------
 
@@ -86,3 +87,21 @@ console.log(arr["name"]);
 console.log(arr.name); 
 
 */
+
+//-----------------------------------------------------------------------------
+
+// let str="Hello how are you";
+// let ans=str.split("e");
+// console.log(ans);
+
+
+
+let object={
+    name:["abc","ram","sita"],
+    villege:["x","y","z"]
+}
+for(let key in object){
+    console.log(object[key][0]);
+}
+
+// console.log(object);

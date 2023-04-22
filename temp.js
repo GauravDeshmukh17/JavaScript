@@ -13,3 +13,5 @@ let obj={
     name:"Anderson"
 };
 
+console.log(obj);
+module.exports=obj;
