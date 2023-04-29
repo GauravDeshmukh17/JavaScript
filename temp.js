@@ -13,5 +13,9 @@ let obj={
     name:"Anderson"
 };
 
-console.log(obj);
-module.exports=obj;
+var a=100;
+
+// console.log("Printed in temp "+obj);
+// module.exports=obj;
+
+export default obj;
